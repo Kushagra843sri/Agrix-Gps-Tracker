@@ -1,0 +1,59 @@
+name: apps
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.68.0
+  excel: ^2.0.0
+  path_provider: ^2.0.11
+  file_picker: ^5.2.0
+  http: ^0.13.3
+  intl: ^0.19.0
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+  google_maps_flutter: ^2.1.1
+  permission_handler: ^10.2.0
+  audioplayers: ^5.2.1
+  mongo_dart: ^0.8.2
+  shared_preferences: ^2.2.0
+  flutter_local_notifications: ^17.0.0
+  flutter_background_service: ^5.1.0
+  geolocator: ^12.0.0
+  dropdown_search: ^5.0.6
+  cupertino_icons: ^1.0.6
+  connectivity_plus: ^6.0.5
+  device_info_plus: ^10.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.4.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/ezgif.com-gif-maker.gif
+    - assets/dashboard-bg.jpg
+    - assets/jcb-unit.jpg
+    - assets/tractor-unit.jpg
+    - assets/bg-agrix.jpg
+    - assets/jcb-unit-removebg-preview.png
+    - assets/tractor-unit-removebg-preview.png
+    - assets/sounds/click.wav.mp3
+  uses-material-design: true
+
+# Moved flutter_native_splash to top level
+flutter_native_splash:
+  color: "#00B899"
+  image: assets/ezgif.com-gif-maker.gif
+  android: true
+  ios: true
+  fullscreen: true
